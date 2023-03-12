@@ -41,6 +41,7 @@ export const App = () => {
     setSearch(value);
     setAllImages([]);
     setPage(1);
+    e.target.reset()
   };
 
   const handleLoadMore = () => {

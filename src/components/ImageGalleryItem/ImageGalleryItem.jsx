@@ -13,8 +13,6 @@ const ImageGalleryItem = ({ item, largeImg }) => {
   const handleModalClose = () => {
     setIsModalOpen(false);
   };
-  console.log(item);
-  console.log(largeImg);
 
   return (
     <>
